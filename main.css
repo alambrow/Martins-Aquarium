@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 .container {
@@ -10,18 +11,31 @@
 h1 {
     text-align: center;
     background-color: tomato;
+    padding: .5rem;
+    color: seashell;
+    font-size: 5rem;
 }
 
 h2 {
-    margin-bottom: 1rem;
     text-align: center;
+    background-color: rgb(3, 154, 192);
+    color:seashell;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: .6rem;
+    font-size: large;
 }
 
 h3 {
     padding-left: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
     margin: 1rem;
-    /* why am I having bleeding issues with border here? */
     border: .2rem solid rgb(146, 238, 210);
+    color: seashell;
     background-color: tomato;
 }
 
@@ -42,22 +56,26 @@ h3 {
 }
 
 .fish {
-    margin: .4rem;
+    margin: .8rem;
+    padding: .4rem;
     border: .4rem solid tomato;
 }
 
 .fish_banner {
     font-size: x-large;
     text-align: center;
+    font-weight: 900;
 }
 
 .fish_image {
-    width: 15rem;
+    width: 18rem;
     height: 10rem;
+    background-color: rgb(146, 238, 210);
 }
 
 .fish_latin {
     text-align: center;
+    font-weight: 700;
 }
 
 .quotebox {
@@ -100,6 +118,19 @@ h3 {
     text-align: center;
 }
 
+.fishy-tips {
+    list-style-position: inside;
+    padding: .5rem;
+}
+
+h5 {
+    color: slategray;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
 .fish-tips {
     color: slategray;
+    font-weight: bold;
 }
