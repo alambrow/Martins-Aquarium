@@ -1,0 +1,16 @@
+.fishy-tips {
+    list-style-position: inside;
+    padding: .5rem;
+}
+
+h5 {
+    color: slategray;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.fish-tips {
+    color: slategray;
+    font-weight: bold;
+}

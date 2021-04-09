@@ -1,0 +1,18 @@
+.quotebox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgb(173, 144, 156);
+    padding: 1rem;
+}
+
+.quote {
+    border: .3rem solid rgb(146, 238, 210);
+    margin: .3rem;
+    background-color: tomato;
+    color: azure;
+    padding: .5rem;
+    font-size: large;
+}

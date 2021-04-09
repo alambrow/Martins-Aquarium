@@ -1,3 +1,8 @@
+@import "./substyles/fishtypes.css";
+@import "./substyles/quotebox.css";
+@import "./substyles/locations.css";
+@import "./substyles/fishytips.css";
+
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +57,8 @@ h3 {
     /* Why are the bullets not being included? */
 }
 
-.fishtypes {
+/* imported now from fishtypes.css */
+/* .fishtypes {
     display: flex;
     flex-flow: row wrap;
 }
@@ -77,9 +83,11 @@ h3 {
 .fish_latin {
     text-align: center;
     font-weight: 700;
-}
+} */
 
-.quotebox {
+
+/* imported as quotebox.css */
+/* .quotebox {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -96,9 +104,10 @@ h3 {
     color: azure;
     padding: .5rem;
     font-size: large;
-}
+} */
 
-.locations {
+/* imported as locations.css */
+/* .locations {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -124,9 +133,10 @@ h3 {
     color: azure;
     font-size: x-large;
     text-align: center;
-}
+} */
 
-.fishy-tips {
+/* imported as fishytips.css */
+/* .fishy-tips {
     list-style-position: inside;
     padding: .5rem;
 }
@@ -141,4 +151,4 @@ h5 {
 .fish-tips {
     color: slategray;
     font-weight: bold;
-}
+} */

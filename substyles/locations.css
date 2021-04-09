@@ -1,0 +1,27 @@
+.locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: rgb(173, 144, 156);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.location {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: tomato;
+}
+
+.location_image {
+    width: 10rem;
+    height: 10rem;
+    border: .3rem solid rgb(12, 189, 233);
+}
+
+.location_name {
+    color: azure;
+    font-size: x-large;
+    text-align: center;
+}

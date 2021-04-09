@@ -1,0 +1,26 @@
+.fishtypes {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fish {
+    margin: .8rem;
+    padding: .4rem;
+    border: .4rem solid tomato;
+}
+
+.fish_banner {
+    font-size: x-large;
+    text-align: center;
+    font-weight: 900;
+}
+
+.fish_image {
+    width: 18rem;
+    height: 10rem;
+}
+
+.fish_latin {
+    text-align: center;
+    font-weight: 700;
+}
