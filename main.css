@@ -18,7 +18,7 @@ h1 {
 
 h2 {
     text-align: center;
-    background-color: rgb(3, 154, 192);
+    background-color: rgb(12, 189, 233);
     color:seashell;
 }
 
@@ -70,7 +70,6 @@ h3 {
 .fish_image {
     width: 18rem;
     height: 10rem;
-    background-color: rgb(146, 238, 210);
 }
 
 .fish_latin {
@@ -109,7 +108,7 @@ h3 {
 .location_image {
     width: 10rem;
     height: 10rem;
-    border: .3rem solid rgb(146, 238, 210);
+    border: .3rem solid rgb(12, 189, 233);
 }
 
 .location_name {
