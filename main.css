@@ -18,7 +18,7 @@ h1 {
 
 h2 {
     text-align: center;
-    background-color: rgb(12, 189, 233);
+    background-color: rgb(8, 148, 184);
     color:seashell;
 }
 
@@ -47,6 +47,8 @@ h3 {
     display: flex;
     flex: 1;
     background-color: rgb(146, 238, 210);
+    margin-bottom: 2rem;
+    margin-right: .6rem;
     /* Why are the bullets not being included? */
 }
 
@@ -81,7 +83,10 @@ h3 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    margin: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgb(173, 144, 156);
+    padding: 1rem;
 }
 
 .quote {
@@ -89,7 +94,7 @@ h3 {
     margin: .3rem;
     background-color: tomato;
     color: azure;
-    padding: .3rem;
+    padding: .5rem;
     font-size: large;
 }
 
@@ -97,6 +102,10 @@ h3 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    background-color: rgb(173, 144, 156);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .location {
