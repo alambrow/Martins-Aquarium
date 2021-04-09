@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    background-color: tomato;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h3 {
+    padding-left: 1rem;
+    margin: 1rem;
+    /* why am I having bleeding issues with border here? */
+    border: .2rem solid rgb(146, 238, 210);
+    background-color: tomato;
+}
+
+.flex-left {
+    flex: 5;
+}
+
+.flex-right {
+    display: flex;
+    flex: 1;
+    background-color: rgb(146, 238, 210);
+    /* Why are the bullets not being included? */
+}
+
+.fishtypes {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fish {
+    margin: .4rem;
+    border: .4rem solid tomato;
+}
+
+.fish_banner {
+    font-size: x-large;
+    text-align: center;
+}
+
+.fish_image {
+    width: 15rem;
+    height: 10rem;
+}
+
+.fish_latin {
+    text-align: center;
+}
+
+.quotebox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.quote {
+    border: .3rem solid rgb(146, 238, 210);
+    margin: .3rem;
+    background-color: tomato;
+    color: azure;
+    padding: .3rem;
+    font-size: large;
+}
+
+.locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.location {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: tomato;
+}
+
+.location_image {
+    width: 10rem;
+    height: 10rem;
+    border: .3rem solid rgb(146, 238, 210);
+}
+
+.location_name {
+    color: azure;
+    font-size: x-large;
+    text-align: center;
+}
+
+.fish-tips {
+    color: slategray;
+}
